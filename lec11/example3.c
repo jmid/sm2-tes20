@@ -14,7 +14,7 @@ void f(char *p) {
 int main()
 {
   char p[5]; /* stack allocation */
-  /* f(p); */
+  f(p);
   char a = p[4];
   printf("%c\n",a);
   /* printf("%s\n",p); */
